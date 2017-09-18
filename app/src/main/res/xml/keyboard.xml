@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12.5%p"
+    android:keyHeight="12%p">
+    <Row>
+        <Key android:codes="1"    android:keyLabel="(" />
+        <Key android:codes="2"    android:keyLabel="+" />
+        <Key android:codes="3"    android:keyLabel="-"  />
+        <Key android:codes="4"    android:keyLabel="×"  />
+        <Key android:codes="5"    android:keyLabel="÷"  />
+        <Key android:codes="6"    android:keyLabel=")"  />
+        <Key android:codes="-1"   android:keyIcon="@drawable/delete" />
+        <Key android:codes="7"    android:keyLabel="Done"  />
+    </Row>
+
+</Keyboard>

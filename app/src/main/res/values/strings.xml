@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Poker: 24 Points</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_findSolution">Find a solution</string>
+    <string name="btn_validate">Validate</string>
+    <string name="eTxt_solution">Enter your solution</string>
+    <string name="you_lost">You Lost!!!</string>
+    <string name="you_won">You won!!!</string>
+    <string name="no_solution">No solution!</string>
+    <string name="time_remain">Time Remaining: </string>
+    <string name="card_remain">Cards Remaining: </string>
+    <string name="form_invalid">Formula invalid</string>
+    <string name="card_invalid">Card Numbers invalid</string>
+    <string name="op_invalid">Operation invalid</string>
+    <string name="rules">Rules</string>
+    <string name="recommend">Recommend</string>
+    <string name="landscape">landscape</string>
+    <string name="portrait">portrait</string>
+    <string name="timer_up">Timer\'s up</string>
+    <string name="scores">Scores: </string>
+    <string name="about">About</string>
+
+    <string name="howTo">How to play:</string>
+    <string name="rule1">Each number card represent the value as the card number, Jack, Queen and King represent the values 11, 12, and 13, respectively. </string>
+    <string name="rule2">The objective is to find a way to manipulate four numbers(integers) so that the end result is 24.</string>
+    <string name="rule3">If your solution results 24, you score 4 points. If you do not get your solution within one minute, you lose 4 points </string>
+    <string name="rule4">If you do not know the solution, press FIND A SOLUTION: if there is no solution, you score 2 points, but if there is a solution, if you lose 4 points.</string>
+    <string name="rule5">If you do not provide any solution, you lose 4 points.</string>
+
+    <string name="ok">OK</string>
+    <string name="sendMsg">Checkout this cool App follow this link. http://www.richyan.com/android/poke24points.apk</string>
+    <string name="share">Share with</string>
+
+    <string name="aboutGame">About the Game:</string>
+    <string name="about1">The game has been played in Shanghai since the 1960s, using playing cards. It is similar to the card game Maths24.</string>
+    <string name="about2">The original version of 24 is played with an ordinary deck of playing cards with all the face cards removed.
+        The aces are taken to have the value 1 and the basic game proceeds by having 4 cards dealt and the first player that can achieve the number 24 exactly using only allowed operations
+        (addition, subtraction, multiplication, division, and parentheses) wins the hand. Some advanced players allow exponentiation, roots, logarithms, and other operations.</string>
+    <string name="about3">Mental arithmetic and fast thinking are necessary skills for competitive play. Pencil and paper will slow down a player, and are generally not allowed during play anyway.</string>
+    <string name="designedBy">Designed By: Rich Yan</string>
+</resources>

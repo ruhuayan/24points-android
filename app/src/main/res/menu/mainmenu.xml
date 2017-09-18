@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/action_rule"
+        android:title="@string/rules"
+        app:titleTextColor="@color/colorTxt"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/action_recommend"
+        android:icon="@mipmap/ic_menu_invite"
+        android:title="@string/recommend"
+        app:showAsAction="ifRoom|withText"
+       />
+    <item android:id="@+id/action_about"
+        android:title="@string/about"
+        />
+</menu>
+

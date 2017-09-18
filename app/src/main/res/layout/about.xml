@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/imageView_margin">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/titleSize"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/colorCenterBtn"
+            android:paddingLeft="@dimen/imageView_margin"
+            android:textStyle="bold"
+           />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/titleSize"
+        android:padding="@dimen/imageView_margin"
+        android:textColor="@color/colorCenterBtn"
+        android:text="@string/aboutGame"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/imageView_margin"
+            android:textStyle="bold"
+           android:breakStrategy="balanced"
+            android:textColor="@color/colorCenterBtn"
+            android:text="@string/about1"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/imageView_margin"
+            android:textStyle="bold"
+        android:layout_gravity="right"
+            android:textColor="@color/colorCenterBtn"
+            android:text="@string/about2"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/imageView_margin"
+            android:textStyle="bold"
+            android:textColor="@color/colorCenterBtn"
+            android:text="@string/about3"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/imageView_margin"
+            android:textStyle="bold"
+            android:gravity="end"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/designedBy"/>
+
+</LinearLayout>

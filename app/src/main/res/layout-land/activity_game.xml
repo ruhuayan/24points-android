@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/game_activity"
+    android:tag="@string/portrait"
+    android:fitsSystemWindows="true"
+    tools:context="com.richyan.android.poker24points.GameActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/colorTxt"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:paddingBottom="@dimen/imageView_margin"
+        android:paddingLeft="@dimen/imageView_margin"
+        android:paddingRight="@dimen/imageView_margin"
+        android:paddingTop="@dimen/imageView_margin"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tvshape"
+            android:padding="@dimen/imageView_margin"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxt"
+                android:text="@string/card_remain"
+                android:layout_weight="0.25" />
+            <TextView
+                android:id="@+id/cardTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxt"
+                android:layout_weight="0.25" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_remain"
+                android:textColor="@color/colorTxt"
+                android:layout_weight="0.25" />
+            <TextView
+                android:id="@+id/timerTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxt"
+                android:layout_weight="0.25" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <Button
+                android:id="@+id/refreshBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_refresh"
+                android:textColor="@color/colorTxt"
+                android:background="@drawable/btn"
+                android:layout_margin="@dimen/imageView_margin"
+                android:layout_weight="0.5" />
+            <Button
+                android:id="@+id/findSolutionBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_findSolution"
+                android:textColor="@color/colorTxt"
+                android:background="@drawable/btn"
+                android:layout_margin="@dimen/imageView_margin"
+                android:layout_weight="0.5" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/card1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/imageView_margin"
+                android:src="@drawable/acespades"
+                android:layout_weight="0.25" />
+            <ImageView
+                android:id="@+id/card2"
+                android:src="@drawable/aceclubs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/imageView_margin"
+                android:layout_weight="0.25" />
+            <ImageView
+                android:id="@+id/card3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/acediamonds"
+                android:layout_margin="@dimen/imageView_margin"
+                android:layout_weight="0.25" />
+            <ImageView
+                android:id="@+id/card4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/imageView_margin"
+                android:src="@drawable/acehearts"
+                android:layout_weight="0.25" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/solutionEtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:scrollHorizontally="true"
+            android:text="@string/eTxt_solution"/>
+        <Button
+            android:id="@+id/validateBtn"
+            android:background="@drawable/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTxt"
+            android:visibility="gone"
+            android:text="@string/btn_validate"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tvshape"
+            android:padding="@dimen/imageView_margin"
+            android:layout_marginTop="@dimen/imageView_margin">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxt"
+                android:paddingRight="@dimen/imageView_margin"
+                android:text="@string/scores"/>
+            <TextView
+                android:id="@+id/scoreTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTxt"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <android.inputmethodservice.KeyboardView
+        android:id="@+id/keyboardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:background="@android:color/transparent"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

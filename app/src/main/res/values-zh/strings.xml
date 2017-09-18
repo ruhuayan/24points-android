@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">扑克: 24 点</string>
+    <string name="btn_refresh">更新</string>
+    <string name="btn_findSolution">找答案</string>
+    <string name="btn_validate">确认</string>
+    <string name="eTxt_solution">输入你的答案</string>
+    <string name="you_lost">失败!!!</string>
+    <string name="you_won">答对了!!!</string>
+    <string name="no_solution">无解!</string>
+    <string name="time_remain">剩下时间: </string>
+    <string name="card_remain">剩下牌数: </string>
+    <string name="form_invalid">公式无效</string>
+    <string name="card_invalid">牌错误</string>
+    <string name="op_invalid">单位错误</string>
+    <string name="rules">玩法</string>
+    <string name="recommend">推荐</string>
+    <string name="landscape">landscape</string>
+    <string name="portrait">portrait</string>
+    <string name="timer_up">时间到！！！</string>
+    <string name="scores">得分: </string>
+    <string name="about">关于游戏</string>
+
+    <string name="howTo">怎么玩:</string>
+    <string name="rule1">每张数字牌代表那个数字，Jack, Queen 和 King 代表 11, 12 和 13. 每张牌都必须使用一次，但不能重复使用 </string>
+    <string name="rule2">目标是通过运用加、减、乘、除和括号进行运算 得出24</string>
+    <string name="rule3">如果在一分钟内算出24，你得4分 </string>
+    <string name="rule4">如不知道答案，可以按 找答案，如果无解，你得2分，如果是可以算出24，扣4分</string>
+    <string name="rule5">如果你没有在一分钟内提供答案，扣4分</string>
+
+    <string name="ok">知道了</string>
+    <string name="sendMsg">赶快来下载这个超好玩得游戏：  http://www.richyan.com/android/poke24points</string>
+    <string name="share">跟朋友分享</string>
+
+    <string name="aboutGame">About the Game:</string>
+    <string name="about1">The game has been played in Shanghai since the 1960s, using playing cards. It is similar to the card game Maths24.</string>
+    <string name="about2">The original version of 24 is played with an ordinary deck of playing cards with all the face cards removed.
+        The aces are taken to have the value 1 and the basic game proceeds by having 4 cards dealt and the first player that can achieve the number 24 exactly using only allowed operations
+        (addition, subtraction, multiplication, division, and parentheses) wins the hand. Some advanced players allow exponentiation, roots, logarithms, and other operations.</string>
+    <string name="about3">Mental arithmetic and fast thinking are necessary skills for competitive play. Pencil and paper will slow down a player, and are generally not allowed during play anyway.</string>
+    <string name="designedBy">设计: 老严</string>
+</resources>
